@@ -52,5 +52,16 @@ void SETS(){
 int main(){
         //VECTORS();
         int arrays[3]={1,2,3};
+    
+    //some usefu; things about strings
+    string *p;
+    p=new names[5]; // a new array 'names' of 5 string objects
+    names[0]="aryan";
+    names[1]="nakul";
+    //and all other names
+    cout<<names[0].substr(1,3);  // will return a string 'rya' from 'arayn'
+    cout<<names[0].find('n');  //find the index of the first encountered 'n'
+    
+  
 
 }
