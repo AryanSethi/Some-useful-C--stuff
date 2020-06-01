@@ -61,6 +61,10 @@ int main(){
     //and all other names
     cout<<names[0].substr(1,3);  // will return a string 'rya' from 'arayn'
     cout<<names[0].find('n');  //find the index of the first encountered 'n'
+    //when we take a string input from user using cin>>
+    //we can only take strings without spaces
+    //to take strings with spaces ,use
+    getline(cin,names[2]);
     
   
 
